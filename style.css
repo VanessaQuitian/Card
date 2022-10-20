@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #030331;  
+}
+
+.card {
+  width: 25rem;
+  height: 15rem;
+  border-radius: 10px;
+  background: linear-gradient(-45deg, #1F4E8C, #194078, white);
+  border: solid #fff 2px;
+  display: flex;
+  flex-direction: column;
+}
+ 
+.card h1 {
+  color: #194078;
+  margin-left: 5px;
+  margin-bottom: 30px;
+}
+
+.container1 {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.señal {
+  width: 60px;
+  filter: invert();
+}
+
+.chip {
+  width: 65px;
+  border-radius: 10px;
+  border: 2px ridge #6aa6cc;
+}
+
+.container1 h2 {
+  color: #fff;
+  margin: 10px;
+  margin-left: 15px;
+}
+
+.container2 {
+  display: flex;
+  align-items: flex-end;
+}
+.part1 {
+  margin-top: 30px;
+  margin-left: 15px;
+}
+
+.part1 h3 {
+  color: #fff;
+  font-size: 12px;
+}
+
+.part1 h4 {
+  font-size: 15px;
+}
+
+.mastcard {
+  width: 100px;
+  margin-left: 70px;
+}
